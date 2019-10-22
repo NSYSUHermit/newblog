@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deep-learning on Lin&#39;s Blog</title>
+    <link>/categories/deep-learning/</link>
+    <description>Recent content in deep-learning on Lin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generative Adversarial Network Practice</title>
+      <link>/post/2019/10/23/generative-adversarial-network-practice/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/23/generative-adversarial-network-practice/</guid>
+      <description>由Goodfellow等人在2014年推出的生成對抗神經網路適用於學習圖像空間VAE的替代方法。藉由強制讓聲稱ˊ圖像與真實圖片在統計上幾乎無</description>
+    </item>
+    
+    <item>
+      <title>Dropout </title>
+      <link>/post/2019/10/16/dropout/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/16/dropout/</guid>
+      <description>Drop 是由Geoff Hinton與多倫多大學的學生所開發的神經網路常規化技術之一。神經網路層的丟棄法，主要是在訓練期間隨機丟棄layer的一些輸</description>
+    </item>
+    
+    <item>
+      <title>THU Preliminary by Neural Network</title>
+      <link>/post/2019/08/22/thu-preliminary-by-neural-network/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/22/thu-preliminary-by-neural-network/</guid>
+      <description>先前剛看完齋藤康毅的深度學習架構，因此最近正在學習使用keras架立神經網路模型，範例檔案都是使用mnist手寫資料，正在練習時突然想到先前</description>
+    </item>
+    
+    <item>
+      <title>What is deep learning</title>
+      <link>/post/2019/08/20/what-is-deep-learning/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/20/what-is-deep-learning/</guid>
+      <description>最近拜讀Keras之父-Francois Chollet所撰寫的deep learning with python。 因此想撰寫一些讀後心得筆記，以留日後自己參考。 What is Deep</description>
+    </item>
+    
+    <item>
+      <title>Data Analysis Run-Down </title>
+      <link>/post/2019/06/23/data-analysis-run-down/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/06/23/data-analysis-run-down/</guid>
+      <description>日前看到一份有關資料分析流程以及方法的圖片，但因未提及結構化資料以及時間序列等，因此我將它們增加到表上，以此來釐清各分析方法的順序。 (此表不</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Posts | Lin&#39;s Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="header">
+      <div class="banner">
+<a href="/" class="text">
+&Lfr;&Ifr;&Nfr;'&Sfr; &Bfr;&Lfr;&Ofr;&Gfr;
+</a>
+</div>
+
+      <div class="head-meta">
+      
+        <span>Posts</span>
+        <span>2019-10-23</span>
+        
+        <span>1 / 3</span>
+      
+      </div>
+    </nav>
+
+
+<div class="container">
+<main class="list">
+
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/deep-learning">deep-learning</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/10/23/generative-adversarial-network-practice/">Generative Adversarial Network Practice</a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-10-23</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/10/23/generative-adversarial-network-practice/">
+    
+    
+    
+    <div class="thumbnail"><img src="/post/2019-10-23-generative-adversarial-network-practice_files/1.jpg" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    由Goodfellow等人在2014年推出的生成對抗神經網路適用於學習圖像空間VAE的替代方法。藉由強制讓聲稱ˊ圖像與真實圖片在統計上幾乎無法分別的條件下，生成相當逼真的合成圖像。
+若要以直覺的方式來理解GAN，可以想像一個偽造者試圖創造衣服偽造的畢卡索畫作。起先，偽造者的偽造作品非常糟糕。然後他將依些假貨與真正的畫作混合在一起，並給鑑定師鑑定。鑑定師對每幅畫進行真實性評估，並給予位作者意見回饋。接著偽造者根據意見回饋再準備一些新的假貨，隨時間的推移偽造者跟鑑定師也越來越專業，到最後便能產出一個專業偽造者與鑑定師。
+這就是GAN的運作原理：為偽造神經網路以及專家神經網路。因此由兩部分組成：&hellip;
+    </a>
+  </div>
+</section>
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/deep-learning">deep-learning</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/10/16/dropout/">Dropout </a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-10-16</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/10/16/dropout/">
+    
+    
+    
+    <div class="thumbnail"><img src="/post/2019-10-16-dropout_files/1.png" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    Drop 是由Geoff Hinton與多倫多大學的學生所開發的神經網路常規化技術之一。神經網路層的丟棄法，主要是在訓練期間隨機丟棄layer的一些輸出特徵。假設某個輸出向量為[0.2,0.5,1.3,0.8,1.1]的向量，在使用丟棄法後將隨機幾個向量的特徵歸零:[0.2,0,1.3,0,1.1]，而控制丟失多少值一般是採用丟失率來計算，大約0.2~0.5的一個數值。而在test階段不會丟棄任何值，而是按照丟棄率去比例縮小，以平衡被歸零的影響。
+實務上，我們可以在訓練時執行dropout然後把輸出值同比例放大，這樣做就不用再測試做任何變動了。
+這個看似隨興的方法為何可以有效降&hellip;
+    </a>
+  </div>
+</section>
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/machine-learning">machine-learning</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/10/02/one-class-learning/">One Class Learning</a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-10-02</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/10/02/one-class-learning/">
+    
+    
+    
+    <div class="thumbnail"><img src="/post/2019-10-02-one-class-learning_files/1.JPG" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    在資料探勘中，異常檢測:anomaly detection對不符合預期模式或資料集中其他專案的專案、事件或觀測值的辨識。 通常異常專案會轉變成銀行欺詐、結構缺陷、醫療問題、文字錯誤等類型的問題。異常也被稱為離群值、新奇、噪聲、偏差和例外。
+特別是在檢測濫用與網路入侵時，有趣性物件往往不是罕見物件，但卻是超出預料的突發活動。這種模式不遵循通常統計定義中把異常點看作是罕見物件，於是許多異常檢測方法（特別是無監督的方法）將對此類資料失效，除非進行了合適的聚集。相反，群集分析演算法可能可以檢測出這些模式形成的微群集。
+有三大類異常檢測方法。在假設資料集中大多數實體都是正常的前提下，無監督異常檢測方法能&hellip;
+    </a>
+  </div>
+</section>
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/machine-learning">machine-learning</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/09/25/imbalanced-data-binary-classification/">Imbalanced Data Binary Classification</a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-09-25</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/09/25/imbalanced-data-binary-classification/">
+    
+    
+    
+    <div class="thumbnail"><img src="/post/2019-09-25-unbalanced-binary-classification_files/1.1.jpg" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    不平衡資料 (Imbalanced Data)是很常見於結構化資料的情境之一。比如說我們有一筆保險客戶的資料，有非常多的客戶基本資料(如:居住地、學歷等等)，以及一個對應的反應變數:是否有投保，而這個變量有極大的可能多數為非投保狀態，這種情況就稱為Imbalanced Data，因為最近遇到這個類型的資料分析問題，因此從數篇文章中整理幾個常見的解決方法，這裡主要針對反應變數為binary classificaion的狀態。
+[&hellip;] 因為極度不平衡的資料，將導致我們在訓練分類模型的時候有過度去預測某一類的情況。比如說上述的保險資料，我們持有10萬筆客戶訓練資料，但僅有2000筆資&hellip;
+    </a>
+  </div>
+</section>
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/python">Python</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/08/27/how-to-compose-a-python-or-r-script-on-linux-commander/">How to compose a python(or R) script on linux commander.</a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-08-27</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/08/27/how-to-compose-a-python-or-r-script-on-linux-commander/">
+    
+    
+    
+    <div class="thumbnail"><img src="/post/2019-08-27-how-to-compose-a-python-or-r-script-on-linux-commander_files/1.JPG" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    In this article I will show how to bulid a script file on your location. And how to compose the script on Python (or R). You should bulid the Python script on your virtual environment if you want to use the keras CUDA.
+You should enter your server at begining.
+[&hellip;] You can key “dir” to check&hellip;
+    </a>
+  </div>
+</section>
+
+<section class="article-list">
+  <div class="categories">
+  
+  
+    <a href="/categories/python">Python</a>
+  
+  
+  </div>
+  <h1><a href="/post/2019/08/22/thu-preliminary-by-neural-network/">THU Preliminary by Neural Network</a></h1>
+  <div class="date-author">
+    <span class="author">Hermit
+</span> / 
+    <span class="date">2019-08-22</span>
+  </div>
+  <div class="summary">
+    <a href="/post/2019/08/22/thu-preliminary-by-neural-network/">
+    
+    
+    
+    <div class="thumbnail"><img src="https://cdn-images-1.medium.com/max/2000/1*ILJI87KKC7Y3y5ExxbGA8A.png" alt="Thumbnail" /></div>
+    
+    
+    
+      
+    
+    先前剛看完齋藤康毅的深度學習架構，因此最近正在學習使用keras架立神經網路模型，範例檔案都是使用mnist手寫資料，正在練習時突然想到先前東海大學大數據的初賽可以拿來實踐看看。而在嘗試建立好模型後，發現準確度也是高達99%，因此寫這篇文章將架構的部分筆記起來。
+[&hellip;] 因使用Windows 10，所以許多環境設置相比於Linux來說更加繁瑣，因此使用Anaconda來簡化tensorflow gpu CUDA的設置。
+為了能順利使用keras，所以虛擬環境使用：python3.6 + CUDA 10 + cuDNN 7.4.2 + Tesorflow-GPU + Keras。&hellip;
+    </a>
+  </div>
+</section>
+
+</main>
+<nav>
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/post/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/post/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/3/">3</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/post/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/post/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+</nav>
+</div>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+<footer>
+
+<div class="footer">
+  <ul class="menu">
+    
+    <li><a href="/"><span data-hover="Home">Home</span></a></li>
+    
+    <li><a href="/categories/"><span data-hover="Categories">Categories</span></a></li>
+    
+    <li><a href="/tags/"><span data-hover="Tags">Tags</span></a></li>
+    
+    <li><a href="/about/"><span data-hover="Blogdown">Blogdown</span></a></li>
+    
+  </ul>
+  
+  <div class="copyright">&copy; <a href="/about1/">Lin</a> | <a href="https://github.com/NSYSUHermit">Github</a> | <a href="https://rpubs.com/JupiterHenry">Rpubs</a></div>
+  
+</div>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
+

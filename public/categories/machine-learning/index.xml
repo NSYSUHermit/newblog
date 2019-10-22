@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning on Lin&#39;s Blog</title>
+    <link>/categories/machine-learning/</link>
+    <description>Recent content in machine-learning on Lin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One Class Learning</title>
+      <link>/post/2019/10/02/one-class-learning/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/02/one-class-learning/</guid>
+      <description>在資料探勘中，異常檢測:anomaly detection對不符合預期模式或資料集中其他專案的專案、事件或觀測值的辨識。 通常異常專案會轉變成銀</description>
+    </item>
+    
+    <item>
+      <title>Imbalanced Data Binary Classification</title>
+      <link>/post/2019/09/25/imbalanced-data-binary-classification/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/25/imbalanced-data-binary-classification/</guid>
+      <description>不平衡資料 (Imbalanced Data)是很常見於結構化資料的情境之一。比如說我們有一筆保險客戶的資料，有非常多的客戶基本資料(如:居住地、學歷等等)，以及一</description>
+    </item>
+    
+    <item>
+      <title>What is deep learning</title>
+      <link>/post/2019/08/20/what-is-deep-learning/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/20/what-is-deep-learning/</guid>
+      <description>最近拜讀Keras之父-Francois Chollet所撰寫的deep learning with python。 因此想撰寫一些讀後心得筆記，以留日後自己參考。 What is Deep</description>
+    </item>
+    
+    <item>
+      <title>MLB playoff prediction with SVM &amp; Randomforest</title>
+      <link>/post/2019/08/19/mlb-playoff-prediction/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/19/mlb-playoff-prediction/</guid>
+      <description>In the same theme,MLB. I will show how to use Python to train a randomforest and SVM classifier. Our target is predicting whether the team will enter the next year playoff or not. Since the playoff qualification depends on the same year&amp;rsquo;s season game win rate. If we predict the same year playoff is pointless. So I make the variable &amp;ldquo;palyoff&amp;rdquo; to &amp;ldquo;next year playoff&amp;rdquo;. I will use the module</description>
+    </item>
+    
+    <item>
+      <title>2019 THU Big Data Preliminary</title>
+      <link>/post/2019/08/11/2019-thu-big-data-preliminary/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/11/2019-thu-big-data-preliminary/</guid>
+      <description>I participated in the 2019 Donghae University Big Data Competition. In this article, I will show waht kind of the problem we should do and how I finish the work. ※There is contest Description: 1.訓練數據(用於建立模型) 此數據為建模用，數據為熱壓爐成化加</description>
+    </item>
+    
+    <item>
+      <title>MLB win rate regression</title>
+      <link>/post/2019/08/06/mlb-win-rate-regression/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/06/mlb-win-rate-regression/</guid>
+      <description>Last time we build a mlb team data by python. So this time we will bulid a suitable model for our data. And now we want to focus on win rate, so I let the team win rate be the response. In this time, I will read the data at first. Then bulid the full model and check whether it collinear or not. 上次我們通過p</description>
+    </item>
+    
+    <item>
+      <title>Data Analysis Run-Down </title>
+      <link>/post/2019/06/23/data-analysis-run-down/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/06/23/data-analysis-run-down/</guid>
+      <description>日前看到一份有關資料分析流程以及方法的圖片，但因未提及結構化資料以及時間序列等，因此我將它們增加到表上，以此來釐清各分析方法的順序。 (此表不</description>
+    </item>
+    
+    <item>
+      <title>CRE Bacteria Data Analysis</title>
+      <link>/post/2019/04/24/cre-bacteria-data-analysis/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/24/cre-bacteria-data-analysis/</guid>
+      <description>在這個資料中，我們有兩種細菌。前面的46個觀察值是CRE，後面的49個則不是。 我們希望將資料分類為是否為 CRE。Peak是蛋白質的名稱，而P</description>
+    </item>
+    
+  </channel>
+</rss>

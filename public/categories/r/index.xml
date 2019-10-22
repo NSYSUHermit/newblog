@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Lin&#39;s Blog</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Lin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One Class Learning</title>
+      <link>/post/2019/10/02/one-class-learning/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/02/one-class-learning/</guid>
+      <description>在資料探勘中，異常檢測:anomaly detection對不符合預期模式或資料集中其他專案的專案、事件或觀測值的辨識。 通常異常專案會轉變成銀</description>
+    </item>
+    
+    <item>
+      <title>How to compose a python(or R) script on linux commander.</title>
+      <link>/post/2019/08/27/how-to-compose-a-python-or-r-script-on-linux-commander/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/27/how-to-compose-a-python-or-r-script-on-linux-commander/</guid>
+      <description>In this article I will show how to bulid a script file on your location. And how to compose the script on Python (or R). You should bulid the Python script on your virtual environment if you want to use the keras CUDA.
+You should enter your server at begining.
+Rstep 1. Set up the file location:You can key “dir” to check all files on your location.</description>
+    </item>
+    
+    <item>
+      <title>2019 THU Big Data Preliminary</title>
+      <link>/post/2019/08/11/2019-thu-big-data-preliminary/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/11/2019-thu-big-data-preliminary/</guid>
+      <description>I participated in the 2019 Donghae University Big Data Competition. In this article, I will show waht kind of the problem we should do and how I finish the work. ※There is contest Description: 1.訓練數據(用於建立模型) 此數據為建模用，數據為熱壓爐成化加</description>
+    </item>
+    
+    <item>
+      <title>MLB win rate regression</title>
+      <link>/post/2019/08/06/mlb-win-rate-regression/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/06/mlb-win-rate-regression/</guid>
+      <description>Last time we build a mlb team data by python. So this time we will bulid a suitable model for our data. And now we want to focus on win rate, so I let the team win rate be the response. In this time, I will read the data at first. Then bulid the full model and check whether it collinear or not. 上次我們通過p</description>
+    </item>
+    
+    <item>
+      <title>Web crawler on simple Chinese web</title>
+      <link>/post/2019/05/23/web-crawler-on-simple-chinese-web/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/05/23/web-crawler-on-simple-chinese-web/</guid>
+      <description>我會在這次使用R-package:“rvest”來執行網路爬蟲。 這次要爬取的網站: https://heavenlyfood.cn/books/menu.php?id=2021 (国度的操练为着教会的建造) 這個網頁是用簡體中文寫的，所</description>
+    </item>
+    
+    <item>
+      <title>CRE Bacteria Data Analysis</title>
+      <link>/post/2019/04/24/cre-bacteria-data-analysis/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/24/cre-bacteria-data-analysis/</guid>
+      <description>在這個資料中，我們有兩種細菌。前面的46個觀察值是CRE，後面的49個則不是。 我們希望將資料分類為是否為 CRE。Peak是蛋白質的名稱，而P</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015/07/23/hello-r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>
